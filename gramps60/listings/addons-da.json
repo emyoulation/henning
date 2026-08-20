@@ -1,6 +1,6 @@
 [
   {
-    "n": "People with a common biological ancestor with <person>",
+    "n": "Personer med en fælles biologisk forfader med <person>",
     "i": "HasCommonBiologicalAncestorWith",
     "t": 13,
     "d": "Matcher personer, der deler en fælles forfader med en bestemt person, kun efter biologiske forældre-barn-forbindelser (adoptiv-, pleje- og stedforhold er undtaget).",
