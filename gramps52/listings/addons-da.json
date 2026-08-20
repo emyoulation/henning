@@ -1,0 +1,46 @@
+[
+  {
+    "n": "People with a common biological ancestor with <person>",
+    "i": "HasCommonBiologicalAncestorWith",
+    "t": 13,
+    "d": "Matcher personer, der deler en fælles forfader med en bestemt person, kun efter biologiske forældre-barn-forbindelser (adoptiv-, pleje- og stedforhold er undtaget).",
+    "v": "1.1.0",
+    "g": "5.2",
+    "s": 3,
+    "z": "CommonBiologicalAncestor.addon.tgz",
+    "h": "https://github.com/HN1962/Gramps-Tools-and-Filters"
+  },
+  {
+    "n": "Filterarbejdsbænk",
+    "i": "FilterWorkbenchGramplet",
+    "t": 10,
+    "d": "Brug, opbyg, rediger og del dine egne personfiltre, separat fra bedstefars egen filterliste.",
+    "v": "1.0.1",
+    "g": "5.2",
+    "s": 3,
+    "z": "FilterWorkbench.addon.tgz",
+    "h": "https://github.com/HN1962/Gramps-Tools-and-Filters"
+  },
+  {
+    "n": "Personer registreret som ikke-fødte børn",
+    "i": "HasNonBirthChildRelation",
+    "t": 13,
+    "d": "Matcher personer registreret som barn med en ikke-fødsel relation til en forælder (adopteret, plejefamilie, stedforælder osv.). Hjælper med at kontrollere, at børneforholdstyper er indstillet korrekt.",
+    "v": "1.1.0",
+    "g": "5.2",
+    "s": 3,
+    "z": "NonBirthChildRelation.addon.tgz",
+    "h": "https://github.com/HN1962/Gramps-Tools-and-Filters"
+  },
+  {
+    "n": "Bekræft dataene → HTML-rapporten",
+    "i": "verifyhtml",
+    "t": 2,
+    "d": "Kører de indbyggede \"Verify the Data\"-kontroller og gemmer resultatet som en sorterbar HTML-rapport, hvor gennemgåede elementer kan afkrydses.\n\nRapporten genbruger de indbyggede kontroller, så den automatisk følger med, når Gramps tilføjer eller forbedrer dem. Grænser (maksimal alder, ung forælder osv.) tages fra det indbyggede værktøj \"Verify the Data\". Disse indstillinger gemmes kun, når værktøjet rent faktisk køres, så kør \"Verify the Data\" én gang med dine foretrukne værdier, før du genererer denne rapport.",
+    "v": "1.0.0",
+    "g": "5.2",
+    "s": 3,
+    "z": "verify-the-data.addon.tgz",
+    "h": "https://myown-project.dk/tools/verify-the-data/index.html"
+  }
+]
