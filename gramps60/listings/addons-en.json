@@ -5,21 +5,31 @@
     "t": 13,
     "d": "Matches people who share a common ancestor with a specified person, following biological parent-child links only (adoptive, foster and step relationships are excluded).",
     "v": "1.1.0",
-    "g": "6.0",
+    "g": "5.2",
     "s": 3,
     "z": "CommonBiologicalAncestor.addon.tgz",
-    "h": "https://github.com/HN1962/Gramps-Tools-and-Filters"
+    "h": "https://myown-project.dk/tools/gramps-filter-rules/common-biological-ancestor"
   },
   {
     "n": "FilterWorkbench",
     "i": "FilterWorkbenchGramplet",
     "t": 10,
     "d": "Use, build, edit and share your own person filters, separate from Gramps' own filter list.",
-    "v": "1.0.1",
-    "g": "6.0",
+    "v": "1.0.2",
+    "g": "5.2",
     "s": 3,
-    "z": "FilterWorkbench.addon.tgz",
-    "h": "https://github.com/HN1962/Gramps-Tools-and-Filters"
+    "z": "FilterWorkbench.addon.tgz"
+  },
+  {
+    "n": "People with an event in a place or its sub-places",
+    "i": "HasEventInPlaceEnclosed",
+    "t": 13,
+    "d": "Matches people who have an event whose place is a named place or lies within it and everything enclosed by it.",
+    "v": "1.0.0",
+    "g": "5.2",
+    "s": 3,
+    "z": "HasEventInPlaceEnclosed.addon.tgz",
+    "h": "https://myown-project.dk/tools/gramps-filter-rules/event-in-place-enclosed"
   },
   {
     "n": "People recorded as a non-birth child",
@@ -27,10 +37,21 @@
     "t": 13,
     "d": "Matches people recorded as a child with a non-birth relationship to a parent (adopted, foster, step, etc.). Helps review that child relationship types are set correctly.",
     "v": "1.1.0",
-    "g": "6.0",
+    "g": "5.2",
     "s": 3,
     "z": "NonBirthChildRelation.addon.tgz",
-    "h": "https://github.com/HN1962/Gramps-Tools-and-Filters"
+    "h": "https://myown-project.dk/tools/gramps-filter-rules/non-birth-child-relation"
+  },
+  {
+    "n": "Places within a named place or its sub-places",
+    "i": "PlaceInNamedPlaceEnclosed",
+    "t": 13,
+    "d": "Matches a named place and every place enclosed by it (by place name).",
+    "v": "1.0.0",
+    "g": "5.2",
+    "s": 3,
+    "z": "PlaceInNamedPlaceEnclosed.addon.tgz",
+    "h": "https://myown-project.dk/tools/gramps-filter-rules/place-in-named-place-enclosed"
   },
   {
     "n": "Verify the Data → HTML report",
@@ -38,7 +59,7 @@
     "t": 2,
     "d": "Runs the built-in \"Verify the Data\" checks and saves the result as a sortable HTML report in which reviewed items can be ticked off.\n\nThe report reuses the built-in checks, so it automatically follows along when Gramps adds or improves them. Thresholds (maximum age, young parent, and so on) are taken from the built-in \"Verify the Data\" tool. Those settings are only stored when that tool is actually run, so run \"Verify the Data\" once with your preferred values before generating this report.",
     "v": "1.0.0",
-    "g": "6.0",
+    "g": "5.2",
     "s": 3,
     "z": "verify-the-data.addon.tgz",
     "h": "https://myown-project.dk/tools/verify-the-data/index.html"
