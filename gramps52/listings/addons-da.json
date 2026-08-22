@@ -1,67 +1,67 @@
 [
-  {
-    "n": "Personer med en fælles biologisk ane med <person>",
-    "i": "HasCommonBiologicalAncestorWith",
-    "t": 13,
-    "d": "Matcher personer, der deler en fælles forfader med en bestemt person, kun efter biologiske forældre-barn-forbindelser (adoptiv-, pleje- og stedforhold er udelukket).",
-    "v": "1.1.0",
-    "g": "5.2",
-    "s": 3,
-    "z": "CommonBiologicalAncestor.addon.tgz",
-    "h": "https://myown-project.dk/tools/gramps-filter-rules/common-biological-ancestor"
-  },
-  {
-    "n": "Filterværksted",
-    "i": "FilterWorkbenchGramplet",
-    "t": 10,
-    "d": "Brug, opbyg, rediger og del dine egne personfiltre, separat fra bedstefars egen filterliste.",
-    "v": "1.0.2",
-    "g": "5.2",
-    "s": 3,
-    "z": "FilterWorkbench.addon.tgz"
-  },
-  {
-    "n": "Personer med en hændelse i et sted eller dets understeder",
-    "i": "HasEventInPlaceEnclosed",
-    "t": 13,
-    "d": "Matcher personer der har en hændelse, hvis sted enten er et navngivet sted eller ligger inden i det og alt hvad det indeslutter.",
-    "v": "1.0.0",
-    "g": "5.2",
-    "s": 3,
-    "z": "HasEventInPlaceEnclosed.addon.tgz",
-    "h": "https://myown-project.dk/tools/gramps-filter-rules/event-in-place-enclosed"
-  },
-  {
-    "n": "Personer registreret som ikke-fødselsbarn",
-    "i": "HasNonBirthChildRelation",
-    "t": 13,
-    "d": "Matcher personer registreret som barn med en ikke-fødselsrelation til en forælder (adopteret, pleje, sted osv.). Hjælper med at kontrollere at børns relationstyper er sat korrekt.",
-    "v": "1.1.0",
-    "g": "5.2",
-    "s": 3,
-    "z": "NonBirthChildRelation.addon.tgz",
-    "h": "https://myown-project.dk/tools/gramps-filter-rules/non-birth-child-relation"
-  },
-  {
-    "n": "Steder i et navngivet sted eller dets understeder",
-    "i": "PlaceInNamedPlaceEnclosed",
-    "t": 13,
-    "d": "Matcher et navngivet sted og alle steder der er indesluttet af det (efter stednavn).",
-    "v": "1.0.0",
-    "g": "5.2",
-    "s": 3,
-    "z": "PlaceInNamedPlaceEnclosed.addon.tgz",
-    "h": "https://myown-project.dk/tools/gramps-filter-rules/place-in-named-place-enclosed"
-  },
-  {
-    "n": "Verificér data → HTML-rapport",
-    "i": "verifyhtml",
-    "t": 2,
-    "d": "Kører de indbyggede \"Verificér data\"-tjek og gemmer resultatet som en sorterbar HTML-rapport, hvor gennemgåede punkter kan krydses af.\n\nRapporten genbruger de indbyggede tjek, så den automatisk følger med, når Gramps tilføjer eller forbedrer dem. Tærsklerne (høj alder, ung forælder osv.) hentes fra det indbyggede \"Verificér data\"-værktøj. De indstillinger gemmes kun, når værktøjet rent faktisk køres, så kør \"Verificér data\" én gang med dine ønskede værdier, før du genererer denne rapport.",
-    "v": "1.0.0",
-    "g": "5.2",
-    "s": 3,
-    "z": "verify-the-data.addon.tgz",
-    "h": "https://myown-project.dk/tools/verify-the-data/index.html"
-  }
+{
+"n": "Personer med en f\u00e6lles biologisk ane med <person>",
+"i": "HasCommonBiologicalAncestorWith",
+"t": 13,
+"d": "Matches people who share a common ancestor with a specified person, following biological parent-child links only (adoptive, foster and step relationships are excluded).",
+"v": "1.1.1",
+"g": "5.2",
+"s": 3,
+"z": "CommonBiologicalAncestor.addon.tgz",
+"h": "https://github.com/HN1962/Gramps-Tools-and-Filters/blob/main/README.md"
+},
+{
+"n": "Filterv\u00e6rksted",
+"i": "FilterWorkbenchGramplet",
+"t": 10,
+"d": "Brug, opbyg, rediger og del dine egne personfiltre, separat fra bedstefars egen filterliste.",
+"v": "1.0.2",
+"g": "5.2",
+"s": 3,
+"z": "FilterWorkbench.addon.tgz"
+},
+{
+"n": "Personer med en h\u00e6ndelse i et sted eller dets understeder",
+"i": "HasEventInPlaceEnclosed",
+"t": 13,
+"d": "Matcher personer der har en h\u00e6ndelse, hvis sted enten er et navngivet sted eller ligger inden i det og alt hvad det indeslutter.",
+"v": "1.0.0",
+"g": "5.2",
+"s": 3,
+"z": "HasEventInPlaceEnclosed.addon.tgz",
+"h": "https://myown-project.dk/tools/gramps-filter-rules/event-in-place-enclosed"
+},
+{
+"n": "Personer registreret som ikke-f\u00f8dselsbarn",
+"i": "HasNonBirthChildRelation",
+"t": 13,
+"d": "Matcher personer registreret som barn med en ikke-f\u00f8dselsrelation til en for\u00e6lder (adopteret, pleje, sted osv.). Hj\u00e6lper med at kontrollere at b\u00f8rns relationstyper er sat korrekt.",
+"v": "1.1.0",
+"g": "5.2",
+"s": 3,
+"z": "NonBirthChildRelation.addon.tgz",
+"h": "https://myown-project.dk/tools/gramps-filter-rules/non-birth-child-relation"
+},
+{
+"n": "Steder i et navngivet sted eller dets understeder",
+"i": "PlaceInNamedPlaceEnclosed",
+"t": 13,
+"d": "Matcher et navngivet sted og alle steder der er indesluttet af det (efter stednavn).",
+"v": "1.0.0",
+"g": "5.2",
+"s": 3,
+"z": "PlaceInNamedPlaceEnclosed.addon.tgz",
+"h": "https://myown-project.dk/tools/gramps-filter-rules/place-in-named-place-enclosed"
+},
+{
+"n": "Verific\u00e9r data \u2192 HTML-rapport",
+"i": "verifyhtml",
+"t": 2,
+"d": "K\u00f8rer de indbyggede \"Verific\u00e9r data\"-tjek og gemmer resultatet som en sorterbar HTML-rapport, hvor gennemg\u00e5ede punkter kan krydses af.\n\nRapporten genbruger de indbyggede tjek, s\u00e5 den automatisk f\u00f8lger med, n\u00e5r Gramps tilf\u00f8jer eller forbedrer dem. T\u00e6rsklerne (h\u00f8j alder, ung for\u00e6lder osv.) hentes fra det indbyggede \"Verific\u00e9r data\"-v\u00e6rkt\u00f8j. De indstillinger gemmes kun, n\u00e5r v\u00e6rkt\u00f8jet rent faktisk k\u00f8res, s\u00e5 k\u00f8r \"Verific\u00e9r data\" \u00e9n gang med dine \u00f8nskede v\u00e6rdier, f\u00f8r du genererer denne rapport.",
+"v": "1.0.0",
+"g": "5.2",
+"s": 3,
+"z": "verify-the-data.addon.tgz",
+"h": "https://myown-project.dk/tools/verify-the-data/index.html"
+}
 ]
